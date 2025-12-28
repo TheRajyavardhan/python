@@ -33,9 +33,10 @@ def countVowels(string,count=0):
             count+=1
     return count       
 
-print(factorial(5))
-total,minNum,maxNum = listFunction([1,2,3,5,6,8,9])
-print("Total: ",total,"\nMinimum: ",minNum,"\nMaxmum: ",maxNum)
-print(primeCheck(21))
-name = "Mohit"
-print(countVowels(name))
+if __name__ == "__main__":
+    print(factorial(5))
+    total,minNum,maxNum = listFunction([1,2,3,5,6,8,9])
+    print("Total: ",total,"\nMinimum: ",minNum,"\nMaxmum: ",maxNum)
+    print(primeCheck(21))
+    name = "Mohit"
+    print(countVowels(name))
